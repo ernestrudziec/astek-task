@@ -28,9 +28,6 @@ export const HomePage = () => {
     isError,
   } = useHomePage();
 
-  useEffect(() => {
-    console.log({ photoId });
-  }, []);
   return (
     <Stack alignItems={'center'}>
       <Grid container justifyContent={'center'}>
